@@ -17,6 +17,7 @@ def projects(request):
     return render(request, 'projects.html')
 
 def web(request):
+    """ Generate name and link in DB"""
     if request.method=="POST":
         web= request.POST['web']
         link = request.POST['link']
