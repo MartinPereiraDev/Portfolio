@@ -1,12 +1,17 @@
 {% extends "base.html" %}
 {% block projectsactive %} active {% endblock projectsactive %}
 {% block title %} Projects {% endblock title%}
+<link rel="stylesheet" href="{% static 'parrafo.css' %}">
     {% block body %}
 
     <div class="container my-3">
         <h1 class="text-center my-3">Projects</h1>
-        <h2 class="text-center my-2">SP App Gestion de servicios</h2>
-        <p>App que gestiona la promocion y  busqueda de  servicios, tanto a nivel mundial</p>
+        <h2 class="text-center my-2">SP App Service Management</h2>
+        <p1> App search for services, both locally, regionally or worldwide, if you are a professional you can promote your services.
+            Customers can quickly face a need to contract services through, filters by categories, area or region where they can find services grouped according to their area through the map.
+            If you have to make a trip and hire a service prior to your destination you can filter by country, region, area or if you only need a service near your neighborhood.
+           
+        </p1>
         <a  href="https://github.com/MPDevuy/Android" class="btn btn-primary">Github SP</a>
         <div class="row">
         <div class=" col-md-4">
@@ -14,7 +19,9 @@
                 <img class="card-img-top" src="static/inicio_App.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Menu App</h5>
-                        <p class="card-text">Menu navegable de los servicios</p>
+                        <p class="card-text">Services navigable menu
+                            where you can navigate within the different options.
+                        </p>
                         
                 </div>  
         </div>
@@ -26,8 +33,8 @@
         <div class="card" style="width: 12rem;">
             <img class="card-img-top" src="static/Servicios.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title"> Busqueda</h5>
-                <p class="card-text">Listado de servicios</p>
+                <h5 class="card-title"> Search</h5>
+                <p class="card-text">List of services.</p>
                 
     
             
@@ -38,8 +45,8 @@
         <div class="card" style="width: 12rem;">
             <img class="card-img-top" src="static/Mapa.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Mapa App</h5>
-                <p class="card-text">Mapa con resultados</p>
+                <h5 class="card-title">Map App</h5>
+                <p class="card-text">Map with results.</p>
                 
     
             
